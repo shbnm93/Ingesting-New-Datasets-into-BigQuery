@@ -1,0 +1,8 @@
+#standardSQL
+SELECT
+  *
+FROM
+  ecommerce.products
+ORDER BY
+  stockLevel DESC
+LIMIT  5
