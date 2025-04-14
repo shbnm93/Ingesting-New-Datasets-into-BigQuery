@@ -1,0 +1,2 @@
+#standardSQL
+SELECT * FROM ecommerce.products_comments WHERE comments IS NOT NULL
